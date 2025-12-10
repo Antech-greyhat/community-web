@@ -1,0 +1,64 @@
+     body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+}
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+}
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+}
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+}
+    nav {
+      background: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0;
+}
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+}
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+}
+.card {
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.team-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+}
+.member {
+      flex: 1 1 200px;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 6px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+    footer {
+      background: #1a1a1a;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+}
