@@ -1,4 +1,4 @@
-```javascript
+
 // CONTACT FORM
 document.getElementById('contactForm').addEventListener('submit', function (e) {
   e.preventDefault();
