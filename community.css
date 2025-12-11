@@ -29,6 +29,18 @@
       margin: 0 1rem;
       text-decoration: none;
       font-weight: bold;
+      transition: 0.3s ease-in-out;
+}
+nav a:hover{
+      color: antiquewhite;
+      background: teal;
+      border-radius: 4px;
+      border: 1px solid black;
+      cursor: pointer;
+}
+nav a:active{
+      color: gold;
+      transition: scale(2, 1.5);
 }
     section {
       padding: 2rem;
