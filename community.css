@@ -93,3 +93,13 @@ form button{
 form button:hover{
       background: #2c5364;
 }
+form button:active{
+      color: #2c2c2c;
+}
+form button:focus{
+      color: #928080;
+}
+form button:visited{
+      color: grey;
+      cursor: not-allowed;
+}
