@@ -59,12 +59,35 @@
   <section id="contact">
     <div class="card">
       <h2>Contact Us</h2>
-      <p>Email: contact@Antech.org</p>
-      <p>Instagram: @Antech</p>
+      <form action="" id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <hr>
+      <h3>Subscribe to our Newsletter</h3>
+      <form action="" id="subscribeForm">
+        <label for="subscribeEmail">Subscribe</label>
+        <input type="email" id="subscribeEmail" name="subscribeEmail" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <h3>Login</h3>
+      <form action="" id="loginForm">
+        <label for="loginEmail">Email:</label>
+        <input type="email" id="loginEmail" name="loginEmail" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+      </form>
     </div>
   </section>
   <footer>
     <p>&copy; 2025 Antech Collective. All rights reserved.</p>
   </footer>
+  <script src="community.js"></script>
 </body>
 </html>
